@@ -7,10 +7,10 @@ public class MediaEscolar {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite a primeira nota: ");
-        int nota1 = scan.nextInt();
+        float nota1 = scan.nextInt();
 
         System.out.println("Digite a segunda nota: ");
-        int nota2 = scan.nextInt();
+        float nota2 = scan.nextInt();
 
         float media = (nota1 + nota2)/2;
 
@@ -22,5 +22,6 @@ public class MediaEscolar {
         } else{
             System.out.println("Reprovado");
         }
+        scan.close();
     }
 }

@@ -19,5 +19,6 @@ public class ex05 {
         resultado = n1 + n2;
         
         System.out.printf("%s, a soma de %d com %d eh igual a %d",nome,n1,n2,resultado);
+        scan.close();
     }
 }
